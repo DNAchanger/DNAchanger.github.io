@@ -1,29 +1,73 @@
-```html
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>自我介紹網站</title>
+  <title>部落格風格自我介紹</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f3f4f6; margin: 0; padding: 0; }
-    header { background: #2563eb; color: white; text-align: center; padding: 2rem; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    section { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-    h2 { color: #2563eb; }
-    ul { padding-left: 1.5rem; }
-    footer { text-align: center; padding: 1rem; background: #e5e7eb; margin-top: 2rem; }
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #222;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    h2 {
+      border-bottom: 1px solid #555;
+      padding-bottom: 0.5rem;
+      color: #fff;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    a {
+      color: #aaa;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #222;
+      color: #bbb;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>歡迎來到我的自我介紹網站</h1>
-    <p>這是一個 GitHub Pages 上的個人網站</p>
+    <h1>小明的部落格式自我介紹</h1>
+    <p>黑白風格，一頁式設計</p>
   </header>
 
   <section>
     <h2>關於我</h2>
-    <p>大家好！我是小明，一位熱愛探索新事物的人。目前專注於前端開發與設計，喜歡將複雜的概念轉換成簡單易懂、視覺化的作品。</p>
+    <p>大家好，我是小明，一個喜歡探索世界和程式開發的人。我熱愛前端設計，也喜歡把複雜的概念用簡單清楚的方式呈現。</p>
   </section>
 
   <section>
@@ -32,18 +76,18 @@
       <li>旅行與攝影</li>
       <li>閱讀與寫作</li>
       <li>烹飪與品嚐美食</li>
-      <li>開發有趣的程式專案</li>
+      <li>程式專案與技術分享</li>
     </ul>
   </section>
 
   <section>
     <h2>聯絡方式</h2>
-    <p>📧 Email: example@mail.com<br>
-       🌐 個人網站: www.example.com</p>
+    <p>📧 Email: <a href="mailto:example@mail.com">example@mail.com</a><br>
+       🌐 個人網站: <a href="https://www.example.com" target="_blank">www.example.com</a></p>
   </section>
 
   <footer>
-    <p>© 2025 小明的自我介紹網站</p>
+    <p>© 2025 小明的部落格風格自我介紹網站</p>
   </footer>
 </body>
 </html>
